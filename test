@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DSDRelay>
+<APPrel>
   <init>
     <command send="atd"></command>
     <command send="A0010A2"></command>
@@ -76,7 +76,6 @@
       <value name="Arduino Example: Digital 12" startbit="11" bitcount="1"></value>
       <value name="Arduino Example: Digital 13" startbit="12" bitcount="1"></value>
       <value name="Arduino Example: Analog 1" offset="2" length="2"></value>
-      <value name="Arduino Example: Analog 2" offset="4" length="2"></value>
       <value name="Arduino Example: Analog 3" offset="6" length="2"></value>
     </frame>
 
