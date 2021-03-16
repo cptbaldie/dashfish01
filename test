@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<APPrel>
+<!--
+RealDash OBD2 communication description file.
+Requires RealDash version 1.5.8 or newer
+-->
+<OBD2>
   <init>
+    <!-- after first init command is sent, RealDash reads whatever data comes from serial during next 1500ms.
+         This is done to purge the serial buffers. -->
+    <!-- do not remove 'atl0', 'ate0', or 'ats0' commands. Those settings are assumed when parsing the
+         reply from adapter. -->
     <command send="atd"></command>
-    <command send="A0010A2"></command>
-    <command send="A00100A1"></command>
-    <command send="A00201A3"></command>
-    <command send="A00200A2"></command>
-    <command send="A00301A4"></command>
-    <command send="A00300A3"></command>
-    <command send="ATSH8110FC"></command>
+    <command send="atz"></command>
+    <command send="atat1"></command>
+    <command send="atst62"></command>
+    <command send="atsp0"></command>
     <command send="ate0"></command>
     <command send="atl0"></command>
     <command send="ats0"></command>
@@ -17,6 +22,7 @@
     <command send="0100"></command>
     <command send="0120"></command>
   </init>
+
 <!-- RealDash CAN XML description file, version 2 Requires RealDash version 1.5.8 or newer -->
 <RealDashCAN version="2">
   <!-- baseId [optional] is added to each frame canId. -->
