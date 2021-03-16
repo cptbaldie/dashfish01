@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
+<DSD Relay>
+  <init>
+    <command send="atd"></command>
+    <command send="A0010A2"></command>
+    <command send="A00100A1"></command>
+    <command send="A00201A3"></command>
+    <command send="A00200A2"></command>
+    <command send="A00301A4"></command>
+    <command send="A00300A3"></command>
+    <command send="ATSH8110FC"></command>
+    <command send="ate0"></command>
+    <command send="atl0"></command>
+    <command send="ats0"></command>
+    <command send="ath1"></command>
+    <command send="atdpn"></command>
+    <command send="0100"></command>
+    <command send="0120"></command>
+  </init>
 <!-- RealDash CAN XML description file, version 2 Requires RealDash version 1.5.8 or newer -->
 <RealDashCAN version="2">
   <!-- baseId [optional] is added to each frame canId. -->
@@ -47,7 +65,7 @@
       <value name="DSD Relay: A00101A2" startbit="0" bitcount="1"></value>
       <value name="DSD Relay: A00100A1" startbit="1" bitcount="1"></value>
       <value name="FFE1: A00201AE" startbit="0" bitcount="1"></value>
-      <value name="Arduino Example: Digital 4" startbit="3" bitcount="1"></value>
+      <value name="FFE0: A00301A4" startbit="0" bitcount="1"></value>
       <value name="Arduino Example: Digital 5" startbit="4" bitcount="1"></value>
       <value name="Arduino Example: Digital 6" startbit="5" bitcount="1"></value>
       <value name="Arduino Example: Digital 7" startbit="6" bitcount="1"></value>
