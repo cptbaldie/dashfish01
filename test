@@ -83,7 +83,7 @@ Requires RealDash version 1.5.8 or newer
 
       <!-- units must be set to "text" -->
       <!-- offset, length and conversion values have no meaning with text data -->
-      <value name="Arduino Example: Text 1" units="text"></value>
+      <value name="DSD relay: A00101A2" units="text"></value>
     </frame>
 
   </frames>
