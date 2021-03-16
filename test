@@ -66,25 +66,7 @@
       <value name="DSD Relay: A00100A1" startbit="1" bitcount="1"></value>
       <value name="FFE1: A00201AE" startbit="0" bitcount="1"></value>
       <value name="FFE0: A00301A4" startbit="0" bitcount="1"></value>
-      <value name="Arduino Example: Digital 5" startbit="4" bitcount="1"></value>
-      <value name="Arduino Example: Digital 6" startbit="5" bitcount="1"></value>
-      <value name="Arduino Example: Digital 7" startbit="6" bitcount="1"></value>
-      <value name="Arduino Example: Digital 8" startbit="7" bitcount="1"></value>
-      <value name="Arduino Example: Digital 9" startbit="8" bitcount="1"></value>
-      <value name="Arduino Example: Digital 10" startbit="9" bitcount="1"></value>
-      <value name="Arduino Example: Digital 11" startbit="10" bitcount="1"></value>
-      <value name="Arduino Example: Digital 12" startbit="11" bitcount="1"></value>
-      <value name="Arduino Example: Digital 13" startbit="12" bitcount="1"></value>
-      <value name="Arduino Example: Analog 1" offset="2" length="2"></value>
-      <value name="Arduino Example: Analog 3" offset="6" length="2"></value>
-    </frame>
-
-    <!-- 3rd CAN frame contains rest of Arduino analog inputs -->
-    <frame id="3202">
-      <value name="Arduino Example: Analog 4" offset="0" length="2"></value>
-      <value name="Arduino Example: Analog 5" offset="2" length="2"></value>
-      <value name="Arduino Example: Analog 6" offset="4" length="2"></value>
-      <value name="Arduino Example: Analog 7" offset="6" length="2"></value>
+      
     </frame>
 
     <frame id="3203">
